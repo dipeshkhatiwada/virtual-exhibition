@@ -1,0 +1,389 @@
+html{
+padding: 0px;
+margin: 0px;
+}
+body{
+padding: 0px;
+margin: 0px;
+font-family: 'Quicksand', sans-serif;
+color: #9b9b9b;
+overflow-x: hidden;
+font-size: 14px;
+background:url(../images/backgroundbg.jpg) repeat;
+}
+html, body, div,h1, h2, h3, h4,p,span,ul,li,ol,br,table,th,tr,td,.h2{
+padding: 0px;
+margin: 0px;
+}
+* {
+box-sizing: border-box;      
+}
+/* spaceless cols styles */
+.cm-row {
+margin-left: 0;
+margin-right: 0;
+}
+.cm-row .col-xs-1, .cm-row .col-xs-2, .cm-row .col-xs-3, .cm-row .col-xs-4, .cm-row .col-xs-5, .cm-row .col-xs-6, .cm-row .col-xs-7, .cm-row .col-xs-8, .cm-row .col-xs-9, .cm-row .col-xs-10, .cm-row .col-xs-11, .cm-row .col-xs-12, .cm-row .col-sm-1, .cm-row .col-sm-2, .cm-row .col-sm-3, .cm-row .col-sm-4, .cm-row .col-sm-5, .cm-row .col-sm-6, .cm-row .col-sm-7, .cm-row .col-sm-8, .cm-row .col-sm-9, .cm-row .col-sm-10, .cm-row .col-sm-11, .cm-row .col-sm-12, .cm-row .col-md-1, .cm-row .col-md-2, .cm-row .col-md-3, .cm-row .col-md-4, .cm-row .col-md-5, .cm-row .col-md-6, .cm-row .col-md-7, .cm-row .col-md-8, .cm-row .col-md-9, .cm-row .col-md-10, .cm-row .col-md-11, .cm-row .col-md-12, .cm-row .col-lg-1, .cm-row .col-lg-2, .cm-row .col-lg-3, .cm-row .col-lg-4, .cm-row .col-lg-5, .cm-row .col-lg-6, .cm-row .col-lg-7, .cm-row .col-lg-8, .cm-row .col-lg-9, .cm-row .col-lg-10, .cm-row .col-lg-11, .cm-row .col-lg-12 {
+padding-left: 0 !important;
+padding-right: 0 !important;
+}
+
+/* 10px gutter cols styles */
+.cm10-row { margin-left: -5px; margin-right: -5px; }
+.cm10-row .col-xs-1, .cm10-row .col-xs-2, .cm10-row .col-xs-3, .cm10-row .col-xs-4, .cm10-row .col-xs-5, .cm10-row .col-xs-6, .cm10-row .col-xs-7, .cm10-row .col-xs-8, .cm10-row .col-xs-9, .cm10-row .col-xs-10, .cm10-row .col-xs-11, .cm10-row .col-xs-12,
+.cm10-row .col-sm-1, .cm10-row .col-sm-2, .cm10-row .col-sm-3, .cm10-row .col-sm-4, .cm10-row .col-sm-5, .cm10-row .col-sm-6, .cm10-row .col-sm-7, .cm10-row .col-sm-8, .cm10-row .col-sm-9, .cm10-row .col-sm-10, .cm10-row .col-sm-11, .cm10-row .col-sm-12,
+.cm10-row .col-md-1, .cm10-row .col-md-2, .cm10-row .col-md-3, .cm10-row .col-md-4, .cm10-row .col-md-5, .cm10-row .col-md-6, .cm10-row .col-md-7, .cm10-row .col-md-8, .cm10-row .col-md-9, .cm10-row .col-md-10, .cm10-row .col-md-11, .cm10-row .col-md-12,
+.cm10-row .col-lg-1, .cm10-row .col-lg-2, .cm10-row .col-lg-3, .cm10-row .col-lg-4, .cm10-row .col-lg-5, .cm10-row .col-lg-6, .cm10-row .col-lg-7, .cm10-row .col-lg-8, .cm10-row .col-lg-9, .cm10-row .col-lg-10, .cm10-row .col-lg-11, .cm10-row .col-lg-12 {
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+}
+a:hover{
+	text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+/*css for margin padding*/
+.tb10p{
+  padding:10px 0px;
+}
+.tb15p{
+  padding: 15px 0px;
+}
+.tb5p{
+  padding: 5px 0px;
+}
+.tb40p{
+  padding: 40px 0px;
+}
+.tb60p{
+  padding: 60px 0px;
+}
+.tp20m{
+  margin-top: 20px;
+}
+.tp60p{
+  padding-top:60px;
+}
+.lft10m{
+  margin-left: 10px;
+}
+.tp18m{
+  margin-top: 18px;
+}
+.lr120p{
+  padding: 0px 120px;
+}
+.btm60p{
+  padding-bottom: 60px;
+}
+.tb35p{
+  padding: 35px 0px;
+}
+.tb100p{
+  padding:100px 0px;
+}
+.tb60p{
+  padding:60px 0px;
+}
+.right{
+  float: right;
+}
+.center{
+  text-align: center;
+  margin:0 auto;
+}
+.whiteclr{
+  color: #fff !important;
+}
+.fffbtn{
+  border:2px solid #fff !important;
+  color: #fff !important;
+}
+.topheader{
+  background-color: #008bb5;
+  color: #fff;
+  padding: 8px 0px;
+}
+.socialicons span{
+margin-left: 10px;
+}
+
+/*css for main Nav started here*/
+.header{
+padding-top: 5px;
+  width: 100%;
+background-color: #fff;
+/* box-shadow: 3px 0 7px rgba(0, 0, 0, 0.3); */
+position: fixed;
+z-index: 999;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+
+}
+
+.header.showheader {
+top: 0px;
+padding:0px;
+background-color: rgba(255,255,255, 1);
+transition: all 0.5s ease;
+border-bottom: 1px solid #f5f5f5;
+box-shadow: 3px 0 7px rgba(0, 0, 0, 0.3);
+}
+
+.mainmenu ul li{
+  padding:0px 15px;
+}
+.mainmenu ul li a{
+  color: #103545;
+  text-transform: uppercase;
+}
+.mainmenu ul li a.menuactive{
+  color: #008bb5;
+  border:2px solid #008bb5;
+  border-radius: 3px;
+  font-weight: bold;
+}
+.jobseeker{
+  background-color: #008bb5;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+.employer{
+  background-color: #73c058;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+
+/*css for header with menu ended here*/
+.rn_banner{
+background:url(../images/banner.jpg) no-repeat;
+background-attachment: fixed;
+background-size: cover;
+margin-top: 60px;
+}
+.h1{
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+}
+.h2{
+  font-size: 28px;
+  color: #555;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.rn_banner span{
+  color: #00c3fe;
+}
+.search_form{
+  padding: 15px 0px;
+  margin:0 auto;
+}
+.searchicon{
+  background-color: #73c058;
+  color: #fff;
+  padding:0px 20px;
+}
+.rn_banner p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+.bluebtn{
+  background-color: #008bb5;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  border:2px solid #0095c2;
+  margin-top: 20px;
+  -webkit-transition: background-color 0.6s ease-out;
+  -moz-transition: background-color 0.6s ease-out;
+  -o-transition: background-color 0.6s ease-out;
+  transition: background-color 0.6s ease-out;
+}
+.bluebtn:hover{
+    background-color: transparent;
+    border:2px solid #fff;
+    color: #fff;
+}
+.title_bg{
+  background:url(../images/titlebg.png) no-repeat 50% 50%;
+  padding: 5px 0px;
+}
+.joblogo{
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #fff;
+  line-height: 70px;
+  margin:-25px auto;
+}
+.comn_block{
+  border:1px solid #f1f1f1;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 15px 5px 40px 15px;
+  margin-bottom: 10px;
+}
+.h3{
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #666;
+}
+.lft_block ul li{
+  list-style-type: none;
+}
+.lft_block ul li:before{
+  content: "\f101";
+  font-family: "Font Awesome 5 free";
+  display: inline-block;
+  color:#008bb5;
+  padding-right: 5px;
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+}
+.lft_block ul li span{
+  color:#008bb5;
+}
+.gold{
+  color:#fdb700;
+}
+.silver{
+  color:#cccc99;
+}
+.bronze{
+  color:#7b583a;
+}
+.complogo{
+  line-height: 56px;
+}
+.complogo img{
+  max-width: 100%;
+  
+}
+.company_name{
+  font-size:14px;
+  color:#1683ac;
+}
+ul.joblist{
+  list-style-type: none;
+}
+.joblist li{
+  font-size: 12px;
+  color:#999;
+}
+.joblist li a{
+  color: #666;
+}
+.joblist li a:hover{
+  color:#333;
+}
+.morejob{
+  padding:10px 15px 0px 0px;
+  color:#5dc121;
+  font-weight: 600;
+}
+.morejob:hover{
+  color:#5dc121;
+}
+.browsebtn{
+  color:#666;
+  border:2px solid #999;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding:6px 25px;
+}
+.tenderdiv{
+border-top:70px solid #ececec;
+background-color: #1683ac;
+padding:20px;
+text-align: center;
+margin-bottom: 20px;
+
+}
+.tenderlogo{
+  background-color: #fff;
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 85px;
+  margin:-60px auto;
+}
+.tendertitle{
+  font-size: 16px;
+  font-weight: 600;
+  color:#fff;
+  padding-top: 70px;
+}
+.tenderdiv p{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/*css for training started here*/
+.r_training{
+background:url(../images/trainingbg.jpg) no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+.training_icon{
+  background-color: #1683ac;
+  color: #fff;
+  margin-top: -15px;
+  padding:5px 10px;
+}
+.border{
+  background-color: #1683ac;
+  height: 4px;
+  width: 60px;
+  margin:20px 0px;
+}
+
+
+/*css for Rolling test started here*/
+.test_div{
+  background-color: #fff;
+  border:2px solid #1683ac;
+  border-radius: 3px;
+}
+h3.typing{
+  padding: 25px 10px 20px;
+  text-align: center;
+  background-color: #fff;
+  border:2px solid #1683ac;
+}
+.test_content{
+  background-color: #1683ac;
+  color: #fff;
+  padding:20px 10px;
+  text-align: center;
+}
+.test_icon{
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #1683ac;
+  position: absolute;
+  text-align: center;
+  font-size:36px;
+  line-height: 58px;
+  margin: -66px auto;
+  left: 140px;
+  z-index: 999;
+}

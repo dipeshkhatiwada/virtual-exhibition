@@ -1,0 +1,117 @@
+.brandcolor, .brandcolor:hover{
+    color:#0099e5;
+  }
+  .brandbgcolor, .brandbgcolor:hover{
+    background-color: #0099e5;
+    border-color:#0099e5;
+  }
+  .brand_menu{
+    background-color:rgba(1,153,229, 0.5);
+  }
+  .brand_menu .whitebtn:hover, .brandmenu4 .whitebtn:hover, .brandNavigation3 .whitebtn:hover, .brandmenu4 .whitebtn:hover{
+    background-color: #0099e5 !important;
+  }
+  .brandmenu ul li a.active{
+    border:1px solid #019eec;
+    background-color: #0099e5 !important;
+  }
+  .noticeblock{
+    border:1px solid #0099e5;
+  }
+  .headingbg{
+    background-color:#0099e5;
+  }
+  .notice{
+    border-bottom:1px solid #0099e5;
+  }
+  .day{
+    border-top:4px solid #0099e5;
+  }
+  .page-item.active .page-link{
+    color:#fff;
+    background-color:#0099e5;
+  }
+  .page-link{
+    color:#0099e5;
+  } 
+  .training:hover .morejob, .training:hover .brandcolor{
+    color:#0099e5;
+  }
+  .training:hover .border{
+    background-color:#0099e5;
+  }
+  .training_info{
+    background-color:rgba(1,153,229, 0.2);
+  }
+  .venue_icon{
+    border:1px solid #0099e5;
+  }
+  .venue_icon i{
+    color:#0099e5;
+  }
+  .brandNav2 ul li a{
+    color:#0099e5;
+  }
+
+  /*css for job detail page*/
+.short_descp i, .deadline i, .jdicon i, .deadline p{
+  color:#0099e5 !important;
+}
+a.large_greenbtn{
+  background: #0099e5 !important;
+  border: 1px solid #0099e5 !important;
+}
+.deadline{
+  border: 1px solid #0099e5 !important;
+}
+
+   /* css for second design*/
+ 
+ .brandNav2 ul li a{
+  color:#0099e5;
+}
+
+.notice2{
+  width: 453px;
+  
+  border-right: 0px solid transparent;
+  border-left: 118px solid transparent;
+  padding: 0px 10px;
+  border-bottom: 237px solid rgba(1,153,229,0.56);
+  right:0px;
+  bottom:0px;
+  position: absolute;
+
+
+}
+
+/*css for third design*/
+.notice3bg{
+  width:100%;
+  background-color:rgba(1,153,229,0.56);
+  position: absolute;
+  bottom:0px;
+}
+.noticeplay .slick-prev{
+  left:-30px;
+  background-color:#0099e5;
+}
+.noticeplay .slick-next{
+  right:-30px;
+  background-color:#0099e5;
+}
+.noticeborder{
+  border-top:1px solid rgba(1,153,229,0.9) !important;
+  padding:10px 0px;
+}
+
+/* css for fifth design*/
+.notice5{
+  border:1px solid #0099e5;
+}
+.notice5 h2:hover{
+  color:#0099e5;
+}
+.triangle-topleft {
+  border-top: 27px solid #0099e5;
+}

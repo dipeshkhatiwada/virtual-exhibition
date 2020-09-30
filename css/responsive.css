@@ -1,0 +1,919 @@
+@charset "utf-8";
+
+@media only screen and (min-device-width : 228px) and (max-device-width : 320px) {
+.h1{
+font-size:22px !important;
+  }
+.tg-btn{
+  display: block !important;
+}
+#left_dashboard{
+left: -363px !important;
+position: fixed;
+top: 0px !important;
+transition:all 500ms linear !important;
+z-index: 9999;
+overflow-y: scroll !important;
+}
+#left_dashboard.active{
+left: 0px !important;
+}
+.company_name, .joblist{
+  padding-left: 20px !important;
+}
+.morejob{
+  margin-left: 20px !important;
+}
+.joblist li::before{
+  left:15px !important;
+}
+.adblock img{
+  width: 100% !important;
+}
+.search_form .form-control{
+  margin-bottom: 10px !important;
+}
+
+.multipleslider{
+margin:0px !important;
+}
+.tp116p{
+  padding-top: 0px !important;
+}
+.footerblock h3{
+  margin-top: 15px !important;
+}
+#extraform{
+  overflow-x: scroll; 
+}
+
+/*css for Employer detail page*/
+.hidden-xs{
+  display: none !important;
+}
+.mainlogo{
+  text-align: center;
+  margin-bottom: 5px;
+  /*display: none;*/
+}
+.mainlogo img{
+  width: 70% !important;
+}
+.camp_info .float-right{
+  text-align: center !important;
+  float: none !important; 
+}
+.employer_link{
+  padding-top:0px !important;
+}
+.employer_logo{
+  height: 100px !important;
+  width: 100px !important;
+  line-height: 100px !important;
+}
+.employer_logo img{
+  width: 80%;
+}
+.employer_logoframe{
+  height: 120px !important;
+  width: 120px !important;
+}
+.employer_link{
+  display: none !important;
+}
+.employer_intro{
+  padding:20px !important;
+}
+.employer_intro{
+  margin-top: -21px !important;
+}
+.tp30p{
+  padding-top:10px !important;
+}
+.applybtn{
+  margin:0 auto !important;
+}
+.job_time{
+  padding-left: 0px !important;
+}
+#sidebar{
+  overflow-y: scroll;: 
+}
+.bluebtn{
+  padding:15px 30px 15px 10px !important;
+}
+.greenbtn{
+  padding:15px 30px 15px 10px !important ;
+  margin-left: 2px !important;
+}
+.individualbtn::after, .businessbtn:after{
+  line-height: 0px !important;
+}
+.tb49p{
+  padding:9px 0px 20px !important;
+}
+.das_common_block{
+  margin-bottom: 5px !important;
+}
+.dash_table{
+  width: 100% !important
+}
+.form_tab .nav-link{
+  padding:0.5rem 0.5rem !important;
+}
+.dash_tab .nav-link{
+  padding:10px 5px !important;
+  }
+.tablink{
+  width: 22%;
+  font-size: 12px !important;
+  text-align: center !important;
+}
+.result{
+  padding: 10px !important;
+}
+.capsule label{
+  padding: 0px 15px !important;
+} 
+.servicemodal .heading{
+  padding: 12px 0px 11px !important;
+  font-size: 14px !important;
+}
+.lft74m{
+  margin-left: 0px !important;
+}
+/*css for functional CV
+*/
+.fc_header{
+  margin:0px !important;
+}
+.chc_header{
+  margin:0 !important;
+}
+
+
+/*css for tender*/
+.tender_navbar, .search_background{
+  width: 100% !important;
+}
+.searchbtn{
+  padding:4px 16px !important;
+}
+/*css for rollingable*/
+.sports::after{
+  width: 60% !important;
+  left:25% !important;
+}
+.brand_banner{
+  height: 150px !important;
+}
+.brand_logo{
+  width:164px !important;
+  border-right:57px solid transparent !important;
+  border-bottom: 64px solid #fff !important;
+}
+.brand_logo img{
+  height:68px !important;
+}
+.notice2{
+  border-left:0px !important;
+}
+}
+
+
+ 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 321px) and (max-device-width : 480px) {
+.h1{
+  font-size:20px !important;
+}
+.tp60p{
+  padding-top:30px !important;
+}
+.home_bannertab .nav-link{
+  padding:9px 12px !important;
+}
+.rn_banner{
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 500px;
+  height: calc(90vh) !important;
+  /*background-image: linear-gradient(#0499b1, #015480);*/
+}
+.nav-tabs .nav-item{
+  margin-bottom: -1px !important;
+}
+.titlelogo img{
+  width: 27% !important;
+}
+.tb60p{
+  padding:30px 0px !important;
+}
+.search_form input[placeholder], .search_form select{
+  margin-bottom: 7px !important;
+}
+h3.typing{
+  padding: 14px 10px 22px !important;
+}
+.test_icon{
+  margin: -33px auto !important;
+  left: 42% !important;
+}
+.test_content{
+  padding:32px 30px 15px !important;
+}
+.footerblock{
+  margin-bottom: 15px;
+}
+.jobseeker ul, .employer ul, .contactinfo ul, .information ul{
+  padding-top:10px !important;
+}
+.individualbtn::after{
+  padding-left: 5px !important;
+}
+.businessbtn:after{
+  padding-left: 5px !important;
+}
+.form_section{
+  width: auto !important;
+}
+.login_body{
+  padding:20px 0px !important;
+}
+.inner_logo img{
+  width: 100% !important;
+}
+.mainmenu .navbar-toggler{
+  color: #d5d5d5;
+}
+.bannertab .nav-link.active, .bannertab .nav-item.show .nav-link{
+  font-size: 12px !important;
+  padding:7px 10px !important;
+}
+.bannertab .nav-link{
+  font-size: 12px !important;
+  padding:7px 10px !important;
+} 
+.tender_tab .nav-link.active, .tender_tab .nav-item.show .nav-link{
+  padding:9px 23px !important;
+}
+.tender_tab .nav-link, .tender_tab .nav-item.show .nav-link{
+  padding:9px 23px !important;
+}
+.comn_block{
+  height: 84px !important; 
+}
+.employer_link{
+  padding-top: 0px !important;
+}
+.employer_title{
+  font-size: 18px !important;
+}
+.employer_intro{
+  padding:94px 20px 20px 20px !important;
+  margin-top: -90px !important;
+}
+.short_descp{
+  padding:0px 40px;
+}
+.large_greenbtn{
+  padding:15px 33px 14px !important;
+}
+.mfollowbtn{
+  padding-top:0px !important;
+  text-align: center;
+}
+.general_detail .white_div{
+  padding: 0px !important;
+}
+.rating_div{
+  width: 335px !important;
+}
+.mainmenu{
+  padding-top:7px !important;
+}
+.navbar{
+  padding:8px 0px 8px 10px !important;
+}
+.inner_nav{
+  position: absolute;
+  top: 53px;
+  background-color: #fff;
+  z-index: 1;
+  width: 230px;
+}
+
+.bluebtn{
+  padding:15px 22px 15px 4px !important;
+}
+span.navbar-toggler-icon{
+  color:#fff !important;
+}
+.bluebtn{
+  padding:15px 30px 15px 10px !important;
+}
+.greenbtn{
+  padding:15px 30px 15px 10px !important ;
+  margin-left: 2px !important;
+}
+/*.forms{
+  padding:12px 36px 5px 10px !important;
+}*/
+#left_dashboard{
+  left: -363px !important;
+  position: fixed;
+  top: 0px !important;
+  transition:all 500ms linear !important;
+  z-index: 9999;
+  overflow-y: scroll !important;
+}
+#left_dashboard.active{
+  left: 0px !important;
+ }
+.company_name, .joblist{
+  padding-left: 20px !important;
+}
+.morejob{
+  left:15px !important;
+}
+.joblist li::before{
+  left:10px !important;
+}
+.adblock img{
+  width: 100% !important;
+}
+
+/*.searchicon{
+  margin-left: 240px;
+}*/
+.multipleslider{
+  margin:0px !important;
+}
+.hidden-xs{
+  display: none !important;
+}
+.tg-btn{
+  display: block !important;
+  transform: all 500ms linear !important;
+}
+#extraform{
+  overflow-x: scroll; 
+}
+#sidebar{
+  overflow-y: scroll;: 
+}
+.mainlogo img{
+  width: 60% !important;
+}
+
+.individualbtn::after, .businessbtn:after{
+  line-height: 0px;
+}
+.mainlogo img{
+  width: 70% !important;
+}
+.tb49p{
+  padding:9px 0px 20px !important;
+} 
+.das_common_block{
+  margin-bottom: 5px !important;
+}
+.form_tab .nav-link{
+  padding:0.5rem 0.5rem !important;
+}
+.tablink{
+  width: 20%;
+  font-size: 12px !important;
+  text-align: center !important;
+}
+.dash_tab .nav-link{
+  padding:10px 5px !important;
+}
+.result{
+  padding: 14px 10px 12px 10px!important;
+  margin-left: -3px !important;
+}
+.capsule label{
+  padding: 0px 15px !important;
+}
+.servicemodal .heading{
+  padding: 12px 0px 11px !important;
+  font-size: 14px !important;
+}
+.lft74m{
+  margin-left: 0px !important;
+}
+/*css for functional CV
+*/
+.fc_header, .fc_content, .trapezoid{
+  margin:0px !important;
+}
+.trapezoid{
+  margin:0px !important;
+  width: 384px !important;
+}
+.chc_header{
+  margin:0 !important;
+}
+/*css for tender*/
+.tender_navbar, .search_background{
+  width: 100% !important;
+}
+.searchbtn{
+  padding:4px 7px !important;
+}
+.tender_list_body .float-right{
+  float: left !important; 
+}
+ .deadline p, .deadline span{
+    line-height: normal !important;
+  }
+.deadline{
+  margin-top: 10px;
+}
+.reg_form{
+  width: auto !important;
+}
+.forms{
+  padding:12px 10px 8px 10px !important;
+}
+.topemployer{
+  padding:0px !important;
+}
+.rj_banner p{
+  font-size: 20px !important;
+}
+.ind_login_forms{
+  padding:12px 10px 8px 10px !important;
+}
+.table_form thead th{
+  min-width: 150px !important;
+}
+.flex{
+  display: flex;
+  overflow-x: scroll;
+}
+.dash_forms input{
+margin-bottom: 5px;
+}
+.rating-detail{
+  width: 240px !important;
+}
+
+/*css for rollingable*/
+.sports::after{
+  width: 60% !important;
+  left:25% !important;
+}
+.rable_jobs::after{
+  width: 60% !important;
+  left:20% !important;
+}
+.newsblock{
+  margin-bottom: 5px;
+}
+.h-title{
+  width: 49%;
+}
+.wjobs_title::after{
+  width: 80%;
+}
+.news::after{
+  width: 85%;
+}
+.travels::after{
+  width: 50% !important;
+  left:28% !important;
+}
+.tags h2::after{
+  width:230px !important;
+  left:100% !important;
+}
+.inner_header{
+  position:relative !important;
+}
+.rj_banner, .rt_banner, .event_banner{
+  padding: 0px 0px 60px !important;
+}
+.lft100p{
+    padding-left:0px !important;
+}
+.home_bannertab-content ul li::before{
+    left:10px !important;
+}
+.rn_banner {
+    background-image:none !important;
+    background-color:#059fd5 !important;
+}
+.innerpage_banner .tp115p{
+    padding-top:37px !important;
+}
+.innerpage_banner, .brand_banner{
+  background-size:cover !important;
+}
+.navbar-toggler{
+  border:1px solid #fff !important;
+  color:#fff !important;
+}
+.brand_banner{
+  height: 150px !important;
+}
+.brand_logo{
+  width:164px !important;
+  border-right:57px solid transparent !important;
+  border-bottom: 64px solid #fff !important;
+}
+.brand_logo img{
+  height:68px !important;
+}
+.notice2{
+  border-left:0px !important;
+  position:relative !important;
+}
+.brand_logo2{
+  border-right:0px !important;
+}
+.brand_banner2{
+  padding-top:64px !important;
+}
+.brandmenu2 .navbar-toggler{
+  color:#333 !important;
+  border:1px solid #333 !important;
+}
+.brandNav2 ul.navbar-nav{
+  background-color:#fff !important;
+  z-index:999 !important;
+  position: absolute !important;
+  min-width: 150px !important;
+}
+.brandmenu2 ul li:first-child{
+  padding:0px 15px !important;
+}
+.brand_banner2{
+  height:366px !important;
+}
+.article_banner{
+  background-size:cover !important;
+}
+}
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 767px) {
+.hidden-xs{
+  display: none !important;
+}
+.h1{
+  font-size:20px !important;
+}
+.h-title{
+  width: 30%;
+}
+.brand_banner{
+  height: 345px !important;
+}
+.notice2{
+  border-bottom:265px solid rgba(64,23,103,0.56) !important;
+}
+.brand_logo2{
+  border-bottom:80px solid #fff !important;
+}
+.brand_logo img {
+  height: 80px !important;
+}
+.brandmenu2 {
+  padding:0px 0px 6px !important;
+}
+.article_banner{
+  background-size:cover !important;
+}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .hidden-md{
+    display: none !important; 
+  }
+  .h1{
+  font-size:22px !important;
+}
+.home_bannertab .nav-link{
+  padding:9px 12px !important;
+}
+.nexusinfo{
+  padding:0px 0px 100px 20px !important;
+}
+.rn_banner{
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 500px !important;
+  height: calc(60vh) !important;
+  /*background-image: linear-gradient(#0499b1, #015480);*/
+}
+.tp60p{
+  padding-top:30px !important;
+}
+.tb60p{
+  padding:30px 0px !important;
+}
+.nav-tabs .nav-item{
+  margin-bottom: -1px !important;
+}
+.rn_container{
+  padding-right: 0px;
+  padding-left:0px;
+}
+.mainlogo img{
+  width: 60% !important;
+  padding-top: 5px;
+}
+.mainmenu{
+  padding:10px 0px 0px 0px;
+}
+.mainmenu .nav-link{
+padding-left: 7px !important;
+padding-right: 7px !important;
+}
+.mainmenu ul li{
+  padding:0px 4px !important;
+  font-size:10px;
+}
+.inner_logo img{
+  width: 70% !important;
+}
+
+.test_content{
+  padding:15px 30px !important;
+}
+h3.typing{
+  padding:14px 10px 16px !important;
+}
+.test_icon{
+  left: 83% !important;
+  margin:-67px auto !important;
+}
+.event_container .title_one{
+  padding:18px 10px 20px 10px !important;
+}
+.titlelogo img{
+  width:10% !important;
+}
+.individualbtn::after{
+  padding-left:5px !important;
+}
+.businessbtn::after{
+  padding-left:5px !important;
+}
+.tp12p{
+  padding-top: 12px !important;
+}
+.search_background{
+  width: 88% !important;
+  }
+  .tender_navbar{
+    width: 51% !important;
+  }
+  .afterlogin a{
+    padding: 0.375rem 0.56rem;
+  }
+  .deadline i{
+    font-size: 30px !important;
+  }
+  .bold_date{
+    font-size: 16px;
+  }
+  a.large_greenbtn{
+    padding:10px 43px !important;
+  }
+  .employer_intro{
+    margin-top:-140px !important;
+    padding: 110px 60px 30px 60px !important;
+  }
+  .showheader{
+    padding-bottom: 10px !important;
+  }
+  .ipadloginbtns{
+    padding:7px 5px !important;
+  }
+
+#left_dashboard{
+  left: -768px !important;
+  position: fixed;
+  top: 0px !important;
+  transition:all 500ms linear !important;
+  z-index: 9999;
+  overflow-y: scroll !important;
+}
+#left_dashboard.active{
+  left: 0px !important;
+ }
+ .tg-btn{
+  display: block !important;
+  transform: all 500ms linear !important;
+}
+/*.toggle-btn{
+  margin-left: -28px;
+}*/
+.bluebtn{
+  padding:6px 23px 6px 5px !important;
+}
+.greenbtn{
+  padding:6px 23px 6px 5px !important;
+}
+.nav .nav-link{
+  padding:4px 14px !important;
+}
+/*.flex{
+  display: flex;
+  overflow-x: scroll;
+}*/
+.form_tabbar .whitegradient{
+  padding:2px !important;
+}
+.rating-detail{
+  width: 240px !important;
+}
+
+/*css for rolling women*/
+.h-title{
+  width: 35%;
+}
+.news::after{
+  width: 80%;
+}
+.wn_popular .nav .nav-link{
+  padding:7px 9px !important;
+ 
+}
+.wn_popular nav .nav-tabs .nav-link{
+   font-size: 10px;
+}
+
+/*css for rolling able*/
+.popular h2{
+  width: 97% !important;
+}
+.popular h2::after{
+  left:100% !important;
+width: 4% !important;
+}
+.tags h2{
+  width: 43% !important;
+}
+.weekly h2{
+  width:98% !important;
+}
+.recent-post h2{
+  width: 77% !important;
+}
+.tags h2::after{
+  left:94px !important;
+  width: 127px !important;
+}
+.weekly h2::after{
+  width: 3% !important;
+  left:100% !important;
+}
+.recent-post h2::after{
+  width: 27% !important;
+  left:100% !important;
+}
+#Cslider .carousel-inner .carousel-caption{
+  bottom:6% !important;
+}
+.rable_jobs::after{
+  width: 70% !important;
+  left:14% !important;
+}
+.sports::after{
+  width: 74% !important;
+  left:19% !important;
+}
+.travels::after{
+  width: 64% !important;
+  left:21% !important;
+}
+.recent-post .content a{
+  font-size:12px !important; 
+}
+.talent_title{
+    font-size:11px !important;
+}
+.brandmenu {
+  padding:11px 0px 6px !important;
+}
+.brandmenu ul li{
+  padding:0px 5px !important;
+}
+.brandmenu ul li:first-child{
+  padding:0px 5px 0px 0px !important;
+}
+.brand_menu .whitebtn{
+  font-size:11px !important;
+}
+.day{
+  font-size:20px !important;
+}
+.notice p{
+  font-size:11px !important;
+}
+.brand_banner{
+  height: 345px !important;
+}
+.notice2{
+  border-bottom:265px solid rgba(64,23,103,0.56) !important;
+}
+.brand_logo2{
+  border-bottom:80px solid #fff !important;
+}
+.brand_logo img {
+  height: 80px !important;
+}
+.brandmenu2 {
+  padding:0px 0px 6px !important;
+}
+.brand_banner{
+  background-size:cover !important;
+}
+.article_banner{
+  background-size:cover !important;
+}
+}
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {
+  .rn_banner{
+    padding-top:40px;
+  }
+  .rn_banner h1{
+      padding-top:30px;
+  }
+  .hidden-lg{
+    display: none !important; 
+  }
+  .nav-tabs .nav-item{
+  margin-bottom: 0px !important;
+  }
+  .lft100p{
+    padding-left:155px !important;
+    }
+    .h1{
+      font-size:28px !important;
+    }
+    .home_bannertab-content ul li::before{
+      left:155px !important;
+    }
+    .inner_header .container{
+      max-width:1250px;
+      min-width:1250px;
+    }
+    .talent_title{
+        font-size:11px !important;
+    }
+}
+
+
+@media only screen and (min-device-width : 1367px) and (max-device-width : 1900px) {
+  .rn_banner{
+    padding-top:70px;
+  }
+  .hidden-lg{
+    display: none !important; 
+  }
+  .nav-tabs .nav-item{
+  margin-bottom: 0px !important;
+  }
+  .h1{
+   
+    margin-top:20px !important;
+  }
+  .inner_header .container {
+    max-width: 1250px !important;
+    min-width: 1250px !important;
+    }
+
+}
+
+@media only screen and (min-device-width : 1901px) and (max-device-width : 2000px) {
+  .rn_banner{
+    padding-top:100px;
+  }
+  .rn_banner h1{
+      padding-top:50px;
+  }
+  .hidden-lg{
+    display: none !important; 
+  }
+  .nav-tabs .nav-item{
+  margin-bottom: 0px !important;
+  }
+  .lft100p{
+    padding-left:0px !important;
+    }
+    .home_bannertab-content ul li::before{
+      left:0px !important;
+    }
+    
+  .h1{
+    font-size:35px !important;
+    margin-top:50px !important;
+  }
+
+ 
+}

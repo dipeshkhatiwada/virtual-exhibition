@@ -1,0 +1,68 @@
+<body><div class="modal-header">
+    <h5 class="modal-title">Please log in to continue!</h5>
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span class="icon-circle-cancel"></span>
+    </button>
+</div>
+<div class="modal-body">
+    <div class="card">
+            <div class="card-block">
+                <form action="{{ url('/employee/poplogin') }}" method="post" id="modal-form">
+                    {!! csrf_field() !!}
+                        
+
+ <div id="div_id_login" class="form-group"> 
+    <div class=""> 
+        <div class="input-group"> 
+            <span class="input-group-addon">
+                <span class="icon-email"></span>
+            </span> 
+            <input type="email" name="email" autofocus id="id_login" required placeholder="E-mail address" class="textinput textInput form-control"> 
+        </div> 
+    </div> 
+</div> 
+<div id="div_id_password" class="form-group"> 
+    <div class=""> 
+        <div class="input-group"> 
+            <span class="input-group-addon">
+                <span class="icon-password"></span>
+            </span> 
+            <input type="password" name="password" id="id_password" required placeholder="Password" class="textinput textInput form-control"> 
+        </div> 
+    </div> 
+</div>
+
+<div style="width:50%;"> 
+    <div class="form-group"> 
+        <div class="col-sm-offset-2 "> 
+            <div id="div_id_remember" class="checkbox"> 
+                <label for="id_remember" class=""> 
+                    <input type="checkbox" name="remember" id="id_remember" class="checkboxinput">
+                    Remember Me
+                </label> 
+            </div> 
+        </div> 
+    </div> 
+</div>
+
+                        
+                        <div class="form-group font-sm">
+                            <a href="{{ url('employee/password') }}">Forgot Password?</a>
+                        </div>
+                        <div class="col-10 mx-auto">
+                            <button class="btn btn-md bg-secondary btn-block text-white" type="submit">
+                                <span class="icon-password rm-2"></span> Login
+                            </button>
+                        </div>
+                        <p class="text-center my-2">
+                            Don't have an account?
+                            <a href="{{ url('employee/register') }}">Register Now</a>
+                        </p>
+                        <hr>
+                       
+                </form>
+            </div>
+    </div>
+</div>
+
+</body>

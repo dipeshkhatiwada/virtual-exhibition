@@ -1,0 +1,287 @@
+@charset "utf-8";
+
+@media only screen and (min-device-width : 228px) and (max-device-width : 320px) {
+  .tg-btn{
+    display: block !important;
+  }
+  #left_dashboard{
+  left: -363px !important;
+  position: fixed;
+  top: 0px !important;
+  transition:all 500ms linear !important;
+  z-index: 9999;
+  overflow-y: scroll !important;
+}
+ #left_dashboard.active{
+  left: 0px !important;
+ }
+  .company_name, .joblist{
+    padding-left: 20px !important;
+  }
+  .morejob{
+    margin-left: 20px !important;
+  }
+  .joblist li::before{
+    left:15px !important;
+  }
+  .adblock img{
+    width: 100% !important;
+  }
+  .search_form .form-control{
+    margin-bottom: 10px !important;
+  }
+  .searchicon{
+    margin-left: 240px;
+  }
+  .multipleslider{
+  margin:0px !important;
+  }
+  .tp116p{
+    padding-top: 0px !important;
+  }
+  .footerblock h3{
+    margin-top: 15px !important;
+  }
+#extraform{
+  overflow-x: scroll; 
+}
+
+/*css for Employer detail page*/
+  .hidden-xs{
+    display: none !important;
+  }
+.mainlogo{
+  text-align: center;
+  margin-bottom: 5px;
+  /*display: none;*/
+}
+.mainlogo img{
+  width: 70% !important;
+}
+.camp_info .float-right{
+  text-align: center !important;
+  float: none !important; 
+}
+.employer_link{
+  padding-top:0px !important;
+}
+.employer_logo{
+  height: 100px !important;
+  width: 100px !important;
+  line-height: 100px !important;
+}
+.employer_logo img{
+  width: 80%;
+}
+.employer_logoframe{
+  height: 120px !important;
+  width: 120px !important;
+}
+.employer_link{
+  display: none !important;
+}
+.employer_intro{
+  padding:20px !important;
+}
+.employer_intro{
+  margin-top: -21px !important;
+}
+.tp30p{
+  padding-top:10px !important;
+}
+.applybtn{
+  margin:0 auto !important;
+}
+.job_time{
+  padding-left: 0px !important;
+}
+#sidebar{
+  overflow-y: scroll;: 
+}
+.greenbtn{
+  padding:9px 30px 9px 0px !important;
+}
+.bluebtn{
+  padding:9px 30px 9px 0px !important;
+}
+.individualbtn::after, .businessbtn:after{
+  line-height: 0px !important;
+}
+.tb49p{
+  padding:9px 0px 20px !important;
+}
+.das_common_block{
+  margin-bottom: 5px !important;
+}
+.dash_table{
+  width: 100% !important
+}
+.form_tab .nav-link{
+  padding:0.5rem 0.5rem !important;
+}
+.dash_tab .nav-link{
+  padding:10px 5px !important;
+  }
+.tablink{
+  width: 22%;
+  font-size: 12px !important;
+  text-align: center !important;
+}
+.result{
+  padding: 10px !important;
+}
+.capsule label{
+  padding: 0px 15px !important;
+} 
+.servicemodal .heading{
+  padding: 12px 0px 11px !important;
+  font-size: 14px !important;
+}
+.lft74m{
+  margin-left: 0px !important;
+}
+/*css for functional CV
+*/
+.fc_header{
+  margin:0px !important;
+}
+.chc_header{
+  margin:0 !important;
+}
+
+
+/*css for tender*/
+.tender_navbar, .search_background{
+  width: 100% !important;
+}
+.searchbtn{
+  padding:4px 16px !important;
+}
+}
+ 
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 321px) and (max-device-width : 480px) {
+  #left_dashboard{
+  left: -363px !important;
+  position: fixed;
+  top: 0px !important;
+  transition:all 500ms linear !important;
+  z-index: 9999;
+  overflow-y: scroll !important;
+}
+ #left_dashboard.active{
+  left: 0px !important;
+ }
+.company_name, .joblist{
+  padding-left: 20px !important;
+}
+.morejob{
+  left:15px !important;
+}
+.joblist li::before{
+  left:10px !important;
+}
+.adblock img{
+  width: 100% !important;
+}
+.searchicon{
+  margin-left: 240px;
+}
+.multipleslider{
+  margin:0px !important;
+}
+.hidden-xs{
+  display: none !important;
+}
+.tg-btn{
+  display: block !important;
+  transform: all 500ms linear !important;
+}
+#extraform{
+  overflow-x: scroll; 
+}
+#sidebar{
+  overflow-y: scroll;: 
+}
+.mainlogo img{
+  width: 60% !important;
+}
+.greenbtn{
+  padding:9px 30px 9px 0px !important;
+}
+.bluebtn{
+  padding:9px 30px 9px 0px !important;
+}
+.individualbtn::after, .businessbtn:after{
+  line-height: 0px !important;
+}
+.mainlogo img{
+  width: 70% !important;
+}
+.tb49p{
+  padding:9px 0px 20px !important;
+} 
+.das_common_block{
+  margin-bottom: 5px !important;
+}
+.form_tab .nav-link{
+  padding:0.5rem 0.5rem !important;
+}
+.tablink{
+  width: 20%;
+  font-size: 12px !important;
+  text-align: center !important;
+}
+.dash_tab .nav-link{
+  padding:10px 5px !important;
+}
+.result{
+  padding: 10px !important;
+}
+.capsule label{
+  padding: 0px 15px !important;
+}
+.servicemodal .heading{
+  padding: 12px 0px 11px !important;
+  font-size: 14px !important;
+}
+.lft74m{
+  margin-left: 0px !important;
+}
+/*css for functional CV
+*/
+.fc_header, .fc_content, .trapezoid{
+  margin:0px !important;
+}
+.trapezoid{
+  margin:0px !important;
+  width: 384px !important;
+}
+.chc_header{
+  margin:0 !important;
+}
+/*css for tender*/
+.tender_navbar, .search_background{
+  width: 100% !important;
+}
+.searchbtn{
+  padding:4px 16px !important;
+}
+}
+
+@media only screen and (min-device-width : 481px) and (max-device-width : 767px) {
+  .hidden-xs{
+  display: none !important;
+}
+  
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	
+}
+
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 2000px) {
+
+}

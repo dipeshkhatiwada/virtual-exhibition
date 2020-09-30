@@ -1,0 +1,95 @@
+/* accordion styles */
+.accordion .card-header {
+  cursor: pointer;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.accordion.heading-right .card-title {
+  position: absolute;
+  right: 50px;
+}
+.accordion.indicator-plus .card-header:after {
+  font-family: 'FontAwesome';
+  content: "\f068";
+  float: right;
+}
+.accordion.indicator-plus .card-header.collapsed:after {
+  content: "\f067";
+}
+.accordion.indicator-plus-before.round-indicator .card-header:before {
+  font-family: 'FontAwesome';
+  font-size: 14pt;
+  content: "\f056";
+  margin-left: 10px;
+  color: #4da130;
+}
+.accordion.indicator-plus-before.round-indicator .card-header.collapsed:before {
+  content: "\f055";
+  color: #000;
+}
+.accordion.indicator-plus-before .card-header:before {
+  font-family: 'FontAwesome';
+  content: "\f055";
+  float: right;
+}
+.accordion.indicator-plus-before .card-header.collapsed:before {
+  content: "\f067";
+}
+.accordion.indicator-chevron .card-header:after{
+  font-family: 'FontAwesome';
+  content: "\f078";
+  float: right;
+}
+.accordion.indicator-chevron .card-header.collapsed:after {
+  content: "\f077";
+}
+.accordion.background-none [class^="card"] {
+  background: transparent;
+}
+.accordion.border-0 .card {
+  border: 0;
+}
+/*css changed by bna*/
+.card-header{
+  background-color: #222c3c;
+  padding:5px 10px;
+  color: #fff;
+  text-transform: uppercase;
+  border-left: 3px solid #4da130;
+}
+.remove_icon{
+  border-left:0px;
+}
+.collapsed{
+  border-left: 0px solid #4da130;
+}
+.card-header:first-child{
+  border-radius: 0px;
+}
+.card{
+  border:0px;
+}
+.card-body{
+  background-color: #1d2531;
+}
+.card-body{
+  padding:0px 20px;
+}
+.card-body ul li{
+  list-style-type: none;
+  padding:10px 0px;
+  border-bottom: 1px solid #222c3c;
+}
+.card-body ul li i{
+  color:#71c056;
+  padding-right: 5px;
+}
+.card-body ul li a{
+  color: #fff;
+}
+a.card-title{
+  color: #fff !important;
+}
+.card-title i{
+  padding-right: 5px;
+}
